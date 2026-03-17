@@ -14,11 +14,12 @@ DESCRIPTION = """
 WordForm Counter API
 
 **Поддерживаемые языки:**
-ru, en, de, fr, es, it, pt, nl, pl, cs, sk, da, sv, no, fi, hu, tr, uk, bg, sr, hr, sl, el, 
-ro, et, lv, lt, ca, gl, eu, ga, gd, cy, is, lb, mt, id, ms, tl, sw, hi, fa, la 
 
+Библиотека simplemma поддерживает ast, bg, ca, cs, cy, da, de, el, en, enm, es, 
+et, fa, fi, fr, ga, gd, gl, gv, hbs, hi, hu, hy, id, is, it, ka, la, lb, lt, lv, 
+mk, ms, nb, nl, nn, pl, pt, ro, ru, se, sk, sl, sq, sv, sw, tl, tr, uk языки.
 
-Библиотека simplemma поддерживает все эти языки. В рамках выполнения задания была протестирована работа 
+В рамках выполнения задания была протестирована работа 
 библиотеки с английским (en), немецким (de) и французским (fr) языками
 
 Для работы с русским языком используется pymorphy3 для повышения точности лемматизации
