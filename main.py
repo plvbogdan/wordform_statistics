@@ -5,6 +5,11 @@ from counter import count_words
 from utils import save_to_excel
 import uuid
 import asyncio
+import os
+
+TEMP_DIR = "temp"
+os.makedirs(TEMP_DIR, exist_ok=True)
+
 DESCRIPTION = """
 WordForm Counter API
 
