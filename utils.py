@@ -15,7 +15,7 @@ def save_to_excel(stats: dict, filename: str):
     ws.append(["Словоформа", "Всего", "По строкам"])
 
     for word, data in sorted(stats.items(), key=lambda x: -x[1]['total']):
-        per_line = per_line = ','.join(map(str, data['per_line']))
+        per_line = ','.join(map(str, data['per_line']))
         ws.append([word, data['total'], per_line])
     
     wb.save(filename)
